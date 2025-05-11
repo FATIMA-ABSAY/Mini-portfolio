@@ -1,0 +1,13 @@
+
+mini-portfolio/
+│
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── server/
+│   └── server.js
+│
+├── package.json
+└── README.md
