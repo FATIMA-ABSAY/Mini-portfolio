@@ -18,4 +18,136 @@ body {
     border: none;
     cursor: pointer;
   }
-  
+  /* Reset des marges et paddings pour un rendu plus cohérent */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #473535;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête */
+header {
+  background-color: #473535;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Section À propos */
+#about {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+/* Section Compétences */
+#skills {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#skills ul {
+  list-style-type: none;
+}
+
+#skills ul li {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+/* Section Contact */
+#contact {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+#contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+#projets {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Contactez-moi {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.profile-photo {
+  width: 150px; /* Taille de la photo */
+  height: 150px; /* Taille de la photo */
+  border-radius: 50%; /* Forme ronde */
+  object-fit: cover; /* Pour que l'image soit bien cadrée */
+  margin-bottom: 1rem; /* Espacement sous la photo */
+}
